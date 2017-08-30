@@ -40,5 +40,8 @@ class ViewController: UIViewController {
         randomizeDice()
     }
     
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        randomizeDice()
+    }
 }
 
